@@ -18,7 +18,7 @@ class Assunto(metaclass=abc.ABCMeta):
         pass
 
 
-class Proxy(Subject):
+class Proxy(Assunto):
     """
     Mantem uma referencia que permite que o proxy acesse o assunto verdadeiro
     Prove uma interface identica a do assunto.
